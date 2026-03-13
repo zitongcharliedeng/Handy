@@ -181,6 +181,7 @@
                     pkgs.onnxruntime
                   ]
                 }"
+                --set ALSA_PLUGIN_DIR "${pkgs.pipewire}/lib/alsa-lib"
               )
             '';
 

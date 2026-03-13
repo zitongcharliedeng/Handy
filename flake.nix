@@ -69,6 +69,7 @@
                 "rodio-0.20.1" = "sha256-wq72awTvN4fXZ9qZc5KLYS9oMxtNDZ4YGxfqz8msofs=";
                 "tauri-nspanel-2.1.0" = "sha256-gotQQ1DOhavdXU8lTEux0vdY880LLetk7VLvSm6/8TI=";
                 "tauri-runtime-2.10.0" = "sha256-s1IBM9hOY+HRdl/E5r7BsRTE7aLaFCCMK/DdS+bvZRc=";
+                "handy-keys-0.2.2" = "sha256-ReqtDLC5ycfvnXHHtoLZpapusOPOHc6A67i/HSbzNic=";
                 "vad-rs-0.1.5" = "sha256-Q9Dxq31npyUPY9wwi6OxqSJrEvFvG8/n0dbyT7XNcyI=";
               };
             };

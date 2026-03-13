@@ -198,6 +198,14 @@
         }
       );
 
+      # NixOS module for system-level integration (udev, input group)
+      nixosModules.default =
+        { lib, pkgs, ... }:
+        {
+          imports = [ ./nix/module.nix ];
+          programs.handy.package = lib.mkDefault self.packages.${pkgs.stdenv.hostPlatform.system}.handy;
+        };
+
       # Development shell for building from source
       devShells = forAllSystems (
         system:
